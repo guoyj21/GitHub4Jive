@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - jive-sdk > request > hawk > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - jive-sdk > request > hawk > boom > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - jive-sdk > request > hawk > sntp > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - jive-sdk > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - node-jivev3-api > jive-sdk > request > hawk > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - node-jivev3-api > jive-sdk > request > hawk > boom > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - node-jivev3-api > jive-sdk > request > hawk > sntp > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
+    - node-jivev3-api > jive-sdk > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-18T22:46:09.872Z'
