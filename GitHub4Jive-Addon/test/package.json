@@ -2,11 +2,17 @@
   "dependencies": {
     "jive-testing-framework": "*",
     "q": "*",
-    "chai" : "*",
-    "chai-as-promised" : "*",
-    "sinon" : "*"
+    "chai": "*",
+    "chai-as-promised": "*",
+    "sinon": "*",
+    "snyk": "^1.104.2"
   },
   "devDependencies": {
     "should": "^4.0.4"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
